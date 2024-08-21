@@ -19,5 +19,7 @@ Just knowing Docker isnt enough!!**
 
 and thats where **kubernetes** can helpus.
 
+## What is kubernetes IS and IS NOT?
 
+![image](https://github.com/user-attachments/assets/33db9253-00a4-45b6-9360-87be0ccba1ff)
 

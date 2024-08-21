@@ -23,3 +23,6 @@ and thats where **kubernetes** can helpus.
 
 ![image](https://github.com/user-attachments/assets/33db9253-00a4-45b6-9360-87be0ccba1ff)
 
+<img width="1100" alt="image" src="https://github.com/user-attachments/assets/6ee4d417-5981-437a-bada-bb1a67fa7266">
+
+

@@ -44,6 +44,22 @@ Minikube is designed to be easy to learn and use, and you can start a Kubernetes
    - Deployments
    - Pods
    - Replica sets
+ 
+ ## Updating Deployments
+
+ for updating deployments, simply rebuilding the image and pushing to the dockerhub **wont Work**. 
+
+ For that we need to retag the image with different version which may trigger the deployment after executing this,
+
+ ```
+ docker set deployment/<deployment_name> <existing_container_name>=<new image rebuilt from docker hub>
+ ```
+ so basically, we are informing the exisiting container to use the new built image ( with a new `version` ofcourse) and thus creating a new pod.
+
+ ![image](https://github.com/user-attachments/assets/5d8d863b-6641-4e8e-a4ee-11bbaf2f9b45)
+
+ and therefore, we also check the rollout status which tells us if the previous pod `terminated successfully` in order for the new pod to `run with the new built image`.
+
 
   ![image](https://github.com/user-attachments/assets/97fa468e-f431-44a4-9738-7fa2a283ab01)
 

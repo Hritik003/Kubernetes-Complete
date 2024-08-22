@@ -45,6 +45,9 @@ Minikube is designed to be easy to learn and use, and you can start a Kubernetes
    - Pods
    - Replica sets
  
+![image](https://github.com/user-attachments/assets/97fa468e-f431-44a4-9738-7fa2a283ab01)
+
+ 
  ## Updating Deployments
 
  for updating deployments, simply rebuilding the image and pushing to the dockerhub **wont Work**. 
@@ -61,5 +64,4 @@ Minikube is designed to be easy to learn and use, and you can start a Kubernetes
  and therefore, we also check the rollout status which tells us if the previous pod `terminated successfully` in order for the new pod to `run with the new built image`.
 
 
-  ![image](https://github.com/user-attachments/assets/97fa468e-f431-44a4-9738-7fa2a283ab01)
-
+  
